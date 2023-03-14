@@ -1,0 +1,555 @@
+type: horizontal-stack
+cards:
+  - type: custom:button-card
+    color_type: blank-card
+    styles:
+      card:
+        - width: 20px
+  - type: picture-elements
+    image: /local/pictures/stb_hd_mediabox.jpg
+    elements:
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: volume_mute
+        style:
+          top: 9.5%
+          left: 32.3%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: on_off
+        style:
+          top: 9.6%
+          left: 67%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: num_one
+        style:
+          top: 15%
+          left: 33%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: num_two
+        style:
+          top: 14%
+          left: 51%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: num_three
+        style:
+          top: 15%
+          left: 69%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: num_four
+        style:
+          top: 20%
+          left: 33%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: num_five
+        style:
+          top: 19%
+          left: 51%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: num_six
+        style:
+          top: 20%
+          left: 69%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: num_seven
+        style:
+          top: 25%
+          left: 33%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: num_eight
+        style:
+          top: 23.5%
+          left: 51%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: num_nine
+        style:
+          top: 25%
+          left: 69%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: tv_stb
+        style:
+          top: 29.5%
+          left: 33%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: num_zero
+        style:
+          top: 28%
+          left: 51%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: tv_radio
+        style:
+          top: 29.5%
+          left: 69%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: menu
+        style:
+          top: 38%
+          left: 30.5%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: exit
+        style:
+          top: 34%
+          left: 43%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: audio
+        style:
+          top: 34%
+          left: 59%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: menu
+        style:
+          top: 38%
+          left: 71%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: arrow_up
+        style:
+          top: 37.5%
+          left: 51%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: arrow_down
+        style:
+          top: 47.5%
+          left: 51%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: arrow_left
+        style:
+          top: 42.5%
+          left: 38.5%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: arrow_right
+        style:
+          top: 42.5%
+          left: 64%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: ok
+        style:
+          top: 42.5%
+          left: 51%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: channel_up
+        style:
+          top: 48.5%
+          left: 32.5%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: channel_down
+        style:
+          top: 52%
+          left: 44%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: volume_down
+        style:
+          top: 52%
+          left: 58%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: volume_up
+        style:
+          top: 48.5%
+          left: 69.5%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: rewind
+        style:
+          top: 55%
+          left: 34%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: play
+        style:
+          top: 56.5%
+          left: 45.5%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: pause
+        style:
+          top: 56.5%
+          left: 56%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: forward
+        style:
+          top: 55%
+          left: 67.5%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: replay
+        style:
+          top: 60.5%
+          left: 33.5%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: record
+        style:
+          top: 61.5%
+          left: 45%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: stop
+        style:
+          top: 61.5%
+          left: 57%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: skip
+        style:
+          top: 60.5%
+          left: 68%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: mail
+        style:
+          top: 66.5%
+          left: 34%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: sort
+        style:
+          top: 66.5%
+          left: 45%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: timer
+        style:
+          top: 66.5%
+          left: 56.5%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: info
+        style:
+          top: 66.5%
+          left: 67.5%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: display
+        style:
+          top: 70.5%
+          left: 34%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: sub_t
+        style:
+          top: 70.5%
+          left: 45%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: text
+        style:
+          top: 70.5%
+          left: 56.5%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: sleep
+        style:
+          top: 70.5%
+          left: 67.5%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: recall
+        style:
+          top: 74%
+          left: 36%
+          '--paper-item-icon-color': white
+          opacity: 0%
+      - type: state-icon
+        entity: remote.broadlink_rm4_pro_remote
+        tap_action:
+          action: call-service
+          service: script.remote_controller_stb
+          service_data:
+            command: epg
+        style:
+          top: 74%
+          left: 50.6%
+          '--paper-item-icon-color': white
+          opacity: 0%
+  - type: custom:button-card
+    color_type: blank-card
+    styles:
+      card:
+        - width: 20px

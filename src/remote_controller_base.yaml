@@ -1,0 +1,10 @@
+alias: remote_controller_base
+sequence:
+  - service: remote.send_command
+    data:
+      device: "{{ device }}"
+      command: "{{ command }}"
+    target:
+      entity_id: remote.broadlink_rm4_pro_remote
+mode: single
+icon: mdi:remote

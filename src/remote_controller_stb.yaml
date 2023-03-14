@@ -1,0 +1,8 @@
+alias: remote_controller_stb
+sequence:
+  - service: script.remote_controller_base
+    data:
+      device: STB
+      command: "{{ command }}"
+mode: single
+icon: mdi:remote
