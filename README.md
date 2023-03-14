@@ -1,9 +1,12 @@
 # UPC HD Mediabox remote
-![logo](https://www.nabucasa.com/img/logos/home-assistant.png){: height="70"}
-
 If you would like to control your UPC HD Mediabox via Home Assistant and you own a Broadlink RM4 pro, here's all what you need.
 
-![stb remote](src/stb_hd_mediabox.jpg){: height="650"} ![rm4 pro](broadlink_rm4_pro.png){: height="400"}
+<img src='src/stb_hd_mediabox.jpg' height="650" align="left" />
+<br/>
+<img src='https://www.nabucasa.com/img/logos/home-assistant.png' height="90">
+<img src='broadlink_rm4_pro.png' height="400" />
+
+<br clear="left" />
 
 ## Home Assistant card configuration
 
